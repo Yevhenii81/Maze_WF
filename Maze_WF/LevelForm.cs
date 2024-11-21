@@ -10,12 +10,10 @@
 
         public LevelForm()
         {
-            //audioPlayer = new AudioPlayer();
             InitializeComponent();
             FormSettings();
             timer1.Interval = 1000;
             timer1.Tick += Timer1_Tick;
-            //audioPlayer.PlaySound(@"C:\Users\lolim\Desktop\Home Work\2.2. Maze\GameEffects\02-Metal-Area.wav");
             this.FormClosing += LevelForm_FormClosing;
             StartGameProcess();
         }
